@@ -1,0 +1,71 @@
+{
+  "streams": {
+    "science": {
+      "name": "Science Stream",
+      "subjects": ["Physics", "Chemistry", "Mathematics", "Biology"],
+      "courses": [
+        {
+          "name": "B.Sc. Physics",
+          "duration": "3 years",
+          "career_paths": ["Research Scientist", "Teacher", "Data Analyst", "Engineering Services"],
+          "government_jobs": ["ISRO", "DRDO", "Railway Technical Services"],
+          "higher_studies": ["M.Sc. Physics", "M.Tech", "Ph.D"]
+        },
+        {
+          "name": "B.Sc. Computer Science",
+          "duration": "3 years",
+          "career_paths": ["Software Developer", "System Administrator", "Cyber Security Analyst"],
+          "government_jobs": ["NIC", "BSNL", "Banking IT Services"],
+          "higher_studies": ["MCA", "M.Sc. Computer Science", "M.Tech"]
+        },
+        {
+          "name": "B.Sc. Biology",
+          "duration": "3 years",
+          "career_paths": ["Research Associate", "Lab Technician", "Environmental Consultant"],
+          "government_jobs": ["Forest Department", "Medical Labs", "Agricultural Research"],
+          "higher_studies": ["M.Sc. Biology", "B.Ed", "Ph.D"]
+        }
+      ]
+    },
+    "commerce": {
+      "name": "Commerce Stream",
+      "subjects": ["Accountancy", "Business Studies", "Economics", "Mathematics"],
+      "courses": [
+        {
+          "name": "B.Com",
+          "duration": "3 years",
+          "career_paths": ["Accountant", "Financial Analyst", "Tax Consultant", "Banking"],
+          "government_jobs": ["Income Tax Officer", "Bank PO", "Auditor"],
+          "higher_studies": ["M.Com", "MBA", "CA", "CS"]
+        },
+        {
+          "name": "BBA",
+          "duration": "3 years",
+          "career_paths": ["Business Analyst", "Marketing Executive", "HR Executive"],
+          "government_jobs": ["Management Trainee", "Administrative Services"],
+          "higher_studies": ["MBA", "M.Com", "PGDM"]
+        }
+      ]
+    },
+    "arts": {
+      "name": "Arts Stream",
+      "subjects": ["History", "Geography", "Political Science", "English", "Sociology"],
+      "courses": [
+        {
+          "name": "B.A. English",
+          "duration": "3 years",
+          "career_paths": ["Content Writer", "Journalist", "Teacher", "Translator"],
+          "government_jobs": ["Civil Services", "Teaching", "Media Relations"],
+          "higher_studies": ["M.A. English", "B.Ed", "Mass Communication"]
+        },
+        {
+          "name": "B.A. History",
+          "duration": "3 years",
+          "career_paths": ["Historian", "Archaeologist", "Museum Curator", "Teacher"],
+          "government_jobs": ["Archaeological Survey", "Civil Services", "Teaching"],
+          "higher_studies": ["M.A. History", "B.Ed", "Ph.D"]
+        }
+      ]
+    }
+  }
+}

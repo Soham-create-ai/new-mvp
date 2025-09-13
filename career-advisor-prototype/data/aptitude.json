@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which activity interests you the most?",
+      "options": [
+        {"text": "Solving mathematical problems", "points": {"science": 3, "commerce": 2, "arts": 1}},
+        {"text": "Reading literature and writing", "points": {"science": 1, "commerce": 1, "arts": 3}},
+        {"text": "Managing finances and business", "points": {"science": 1, "commerce": 3, "arts": 1}},
+        {"text": "Understanding human behavior", "points": {"science": 2, "commerce": 1, "arts": 3}}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What type of work environment do you prefer?",
+      "options": [
+        {"text": "Laboratory/Research setting", "points": {"science": 3, "commerce": 1, "arts": 1}},
+        {"text": "Corporate office", "points": {"science": 1, "commerce": 3, "arts": 1}},
+        {"text": "Creative studio/Media house", "points": {"science": 1, "commerce": 1, "arts": 3}},
+        {"text": "Educational institution", "points": {"science": 2, "commerce": 2, "arts": 2}}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which subject did you enjoy most in school?",
+      "options": [
+        {"text": "Mathematics/Science", "points": {"science": 3, "commerce": 2, "arts": 0}},
+        {"text": "History/Geography", "points": {"science": 0, "commerce": 1, "arts": 3}},
+        {"text": "Economics/Business Studies", "points": {"science": 1, "commerce": 3, "arts": 1}},
+        {"text": "Languages/Literature", "points": {"science": 0, "commerce": 1, "arts": 3}}
+      ]
+    }
+  ],
+  "recommendations": {
+    "science": "Based on your interests, Science stream would be ideal for you. Consider courses like B.Sc. Physics, Computer Science, or Biology.",
+    "commerce": "Your aptitude suggests Commerce stream. B.Com or BBA would be excellent choices for your career.",
+    "arts": "Arts stream aligns with your interests. Consider B.A. in English, History, or other humanities subjects."
+  }
+}

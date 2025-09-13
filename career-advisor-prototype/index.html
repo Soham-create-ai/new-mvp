@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career & Education Advisor - Prototype</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 One-Stop Career & Education Advisor</h1>
+            <p class="subtitle">Your personalized guide to education and career planning</p>
+        </header>
+
+        <nav class="nav-buttons">
+            <button class="nav-btn" onclick="showSection('courses')">
+                <span class="icon">📚</span>
+                <span>Explore Courses</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('colleges')">
+                <span class="icon">🏫</span>
+                <span>Find Colleges</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('aptitude')">
+                <span class="icon">🎯</span>
+                <span>Aptitude Test</span>
+            </button>
+            <button class="nav-btn" onclick="showSection('career-path')">
+                <span class="icon">🚀</span>
+                <span>Career Paths</span>
+            </button>
+        </nav>
+
+        <main id="content-area">
+            <!-- Courses Section -->
+            <section id="courses-section" class="content-section" style="display: none;">
+                <h2>Explore Courses by Stream</h2>
+                <div class="stream-buttons">
+                    <button onclick="loadStreamCourses('science')" class="stream-btn science">Science</button>
+                    <button onclick="loadStreamCourses('commerce')" class="stream-btn commerce">Commerce</button>
+                    <button onclick="loadStreamCourses('arts')" class="stream-btn arts">Arts</button>
+                </div>
+                <div id="courses-display" class="display-area"></div>
+            </section>
+
+            <!-- Colleges Section -->
+            <section id="colleges-section" class="content-section" style="display: none;">
+                <h2>Government Colleges Near You</h2>
+                <button onclick="loadColleges()" class="action-btn">Show All Colleges</button>
+                <div id="colleges-display" class="display-area"></div>
+            </section>
+
+            <!-- Aptitude Test Section -->
+            <section id="aptitude-section" class="content-section" style="display: none;">
+                <h2>Quick Aptitude Assessment</h2>
+                <button onclick="startAptitudeTest()" class="action-btn">Start Test</button>
+                <div id="aptitude-display" class="display-area"></div>
+            </section>
+
+            <!-- Career Path Section -->
+            <section id="career-path-section" class="content-section" style="display: none;">
+                <h2>Career Path Visualization</h2>
+                <p>Select a stream to see career opportunities:</p>
+                <div class="stream-buttons">
+                    <button onclick="showCareerPaths('science')" class="stream-btn science">Science Careers</button>
+                    <button onclick="showCareerPaths('commerce')" class="stream-btn commerce">Commerce Careers</button>
+                    <button onclick="showCareerPaths('arts')" class="stream-btn arts">Arts Careers</button>
+                </div>
+                <div id="career-display" class="display-area"></div>
+            </section>
+
+            <!-- Welcome Message (Default) -->
+            <section id="welcome-section" class="content-section">
+                <div class="welcome-box">
+                    <h2>Welcome to Your Education Journey! 🌟</h2>
+                    <p>This platform helps you make informed decisions about your education and career.</p>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>📚 Explore Courses</h3>
+                            <p>Discover various degree programs across Science, Commerce, and Arts streams</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🏫 Find Colleges</h3>
+                            <p>Locate government colleges near you with detailed information</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🎯 Aptitude Test</h3>
+                            <p>Take a quick test to find the best stream based on your interests</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🚀 Career Paths</h3>
+                            <p>Visualize career opportunities for each educational path</p>
+                        </div>
+                    </div>
+                    <p class="cta">Click any button above to get started!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Career & Education Advisor | Empowering Students</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

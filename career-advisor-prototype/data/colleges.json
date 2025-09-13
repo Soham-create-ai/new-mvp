@@ -1,0 +1,34 @@
+{
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Government Degree College, District A",
+      "location": "District A, State",
+      "type": "Government",
+      "courses_offered": ["B.Sc. Physics", "B.Sc. Computer Science", "B.Com", "B.A. English"],
+      "facilities": ["Library", "Computer Lab", "Sports Ground", "Hostel"],
+      "admission_cutoff": "60%",
+      "contact": "admission@gdc-a.edu"
+    },
+    {
+      "id": 2,
+      "name": "Government Arts & Science College",
+      "location": "District B, State",
+      "type": "Government",
+      "courses_offered": ["B.A. History", "B.A. English", "B.Sc. Biology", "BBA"],
+      "facilities": ["Library", "Science Labs", "Auditorium", "Cafeteria"],
+      "admission_cutoff": "55%",
+      "contact": "info@gasc.edu"
+    },
+    {
+      "id": 3,
+      "name": "Government Commerce College",
+      "location": "District C, State",
+      "type": "Government",
+      "courses_offered": ["B.Com", "BBA", "B.A. Economics"],
+      "facilities": ["Library", "Computer Lab", "Seminar Hall"],
+      "admission_cutoff": "50%",
+      "contact": "admin@gcc.edu"
+    }
+  ]
+}
